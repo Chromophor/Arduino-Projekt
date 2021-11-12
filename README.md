@@ -81,3 +81,6 @@ void clightg(){
   digitalWrite(grun2, HIGH);
 }
 
+![Copy of Ampel](https://user-images.githubusercontent.com/88386049/141505817-fa38ad63-de32-456b-ba5c-0c8856f134b2.png)
+
+
