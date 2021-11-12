@@ -98,6 +98,4 @@ void sound(){
   noTone(buzzer);
 }
 
-![Copy of Ampel](https://user-images.githubusercontent.com/88386049/141505817-fa38ad63-de32-456b-ba5c-0c8856f134b2.png)
-
-
+![Copy of Ampel(1)](https://user-images.githubusercontent.com/88386049/141510991-65446160-3da0-48da-9d5d-05244543f446.png)
