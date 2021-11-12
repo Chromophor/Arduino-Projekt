@@ -4,7 +4,9 @@ Enrichment-Kurs
 Code für eine Ampelschaltung mit einem Arduino
 
 
+
 const int button = 5;
+const int buzzer = 7;
 int state = 0;
 const int rot1 = 1;
 const int gelb1 = 2;
@@ -22,6 +24,7 @@ void setup()
   pinMode(gelb2, OUTPUT);
   pinMode(grun2, OUTPUT);
   pinMode(button, INPUT);
+  pinMode(buzzer, OUTPUT);
 }
 
 void loop() 
@@ -53,7 +56,7 @@ void plight() {
   digitalWrite(gelb1, LOW);
   delay(10);
   digitalWrite(grun1, HIGH);
-  delay(10000);
+  sound();
   digitalWrite(gelb1, HIGH);
   delay(10);
   digitalWrite(grun1, LOW);
@@ -66,7 +69,7 @@ void plight() {
 void clightr(){
   digitalWrite(grun2, LOW);
   digitalWrite(gelb2, HIGH);
-  delay(1000);
+  delay(500);
   digitalWrite(rot2, HIGH);
   delay(100);
   digitalWrite(gelb2, LOW);
@@ -74,11 +77,25 @@ void clightr(){
 
 void clightg(){
   digitalWrite(gelb2, HIGH);
-  delay(1000);
+  delay(500);
   digitalWrite(rot2, LOW);
   delay(500);
   digitalWrite(gelb2, LOW);
   digitalWrite(grun2, HIGH);
+}
+
+void sound(){
+  tone(buzzer, 400);
+  delay(1000);
+  noTone(buzzer);
+  delay(1000);
+  tone(buzzer, 400);
+  delay(1000);
+  noTone(buzzer);
+  delay(1000);
+  tone(buzzer, 400);
+  delay(1000);
+  noTone(buzzer);
 }
 
 ![Copy of Ampel](https://user-images.githubusercontent.com/88386049/141505817-fa38ad63-de32-456b-ba5c-0c8856f134b2.png)
