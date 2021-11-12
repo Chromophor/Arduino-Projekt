@@ -2,7 +2,8 @@
 Enrichment-Kurs
 
 Code für eine Ampelschaltung mit einem Arduino
-``
+
+
 const int button = 5;
 int state = 0;
 const int rot1 = 1;
@@ -79,4 +80,4 @@ void clightg(){
   digitalWrite(gelb2, LOW);
   digitalWrite(grun2, HIGH);
 }
-``
+
