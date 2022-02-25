@@ -13,6 +13,6 @@ Enrichment-Kurs
 
 <h1>Temperatursensor TwoPin_DS18B20 - Kabelbelegung</h1>
 Farben der Kabel am Temperatur-Sensor:<br>
-GND = GRAU !!
-3V3 = LILA !!
-D4  = GRÜN !!
+GND = GRAU !!<br>
+3V3 = LILA !!<br>
+D4  = GRÜN !!<br>
