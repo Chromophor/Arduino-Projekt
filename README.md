@@ -12,7 +12,7 @@ Enrichment-Kurs
 ![Ampel-Kreuzung](https://user-images.githubusercontent.com/88386049/141518733-66d97b81-f237-4703-9cc0-9f948c1c499a.png)
 
 <h1>Temperatursensor TwoPin_DS18B20 - Kabelbelegung</h1>
-Farben der Kabel am Temp-Sensor:<br>
-GND = BLAU !!<br>
-3V3 = GRAU !!<br>
-D4  = LILA !!<br>
+Farben der Kabel am Temperatur-Sensor:<br>
+GND = GRAU !!
+3V3 = LILA !!
+D4  = GRÜN !!
