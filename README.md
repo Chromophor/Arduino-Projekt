@@ -16,3 +16,5 @@ Farben der Kabel am Temperatur-Sensor:<br>
 GND = GRAU !!<br>
 3V3 = LILA !!<br>
 D4  = GRÜN !!<br>
+
+--> Aufgabe.ino ist die neuste Datei!
